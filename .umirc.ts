@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: '李汉的个人博客',
   },
   routes: [
     {
@@ -19,16 +19,16 @@ export default defineConfig({
       path: '/home',
       component: './Home',
     },
-    {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
-    },
+    // {
+    //   name: '权限演示',
+    //   path: '/access',
+    //   component: './Access',
+    // },
+    // {
+    //   name: ' CRUD 示例',
+    //   path: '/table',
+    //   component: './Table',
+    // },
   ],
   npmClient: 'pnpm',
 });
